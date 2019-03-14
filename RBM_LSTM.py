@@ -42,7 +42,7 @@ with tf.device('/gpu:0'):
 
 
     # tensorflow placeholders
-    tf_x = tf.placeholder(tf.float32, [None, TIME_STEP * INPUT_SIZE])       # shape(batch, 640)
+    tf_x = tf.placeholder(tf.float32, [None, TIME_STEP * INPUT_SIZE])       # shape(batch, 64*10)
     image = tf.reshape(tf_x, [-1, TIME_STEP, INPUT_SIZE])                   # (batch, height, width, channel)
     tf_y = tf.placeholder(tf.int32, [None, 2])                             # input y
 
