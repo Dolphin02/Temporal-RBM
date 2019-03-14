@@ -1,2 +1,2 @@
 # Temporal-RBM
-Our code and data are being sorted out and uploaded later
+发现股票新闻，舆论，公告等文本与股票异常波动趋势的联系
